@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+class Sell{
+    public:
+    Sell()
+    {
+        B oj1(1,2);
+        oj1.display();
+    }
+    private:
+    class B{
+        public:
+             int a,d;
+        B(int a,int d)
+    {
+      this->a=a;
+      this->d=d;
+    }
+  
+  void display()
+  {
+      cout<<this->a<<" "<<this->d<<" ";
+  }
+    };
+};
+int main()
+{
+    Sell o1;
+    //o1.fun(10,20);
+    //o1.fun(10,20);
+    
+    return 0;
+}
